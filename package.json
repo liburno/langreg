@@ -21,5 +21,9 @@
       "scopeName": "source.reg",
       "path": "./syntaxes/reg.tmLanguage.json"
     }]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liburno/langreg.git"
   }
 }
