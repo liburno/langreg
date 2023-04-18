@@ -1,0 +1,25 @@
+{
+  "name": "langreg",
+  "displayName": "langreg",
+  "description": "Linguaggio Regole",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "reg",
+      "aliases": ["langreg", "reg"],
+      "extensions": [".rg",".var",".regole",".varianti"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "reg",
+      "scopeName": "source.reg",
+      "path": "./syntaxes/reg.tmLanguage.json"
+    }]
+  }
+}
